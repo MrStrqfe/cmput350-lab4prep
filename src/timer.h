@@ -2,6 +2,7 @@
 #include <cstdint>
 #include <ratio>
 
+// Author: Jensen Lee
 
 #ifndef TIMER_H
 #define TIMER_H

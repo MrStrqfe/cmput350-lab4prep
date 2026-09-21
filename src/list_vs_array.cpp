@@ -7,8 +7,9 @@
 
 
 #include "timer.h"
-
 constexpr size_t SIZE = 16000000;
+
+// Author: Jensen Lee
 
 int main() {
     // test here...

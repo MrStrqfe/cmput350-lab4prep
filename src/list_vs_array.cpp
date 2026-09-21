@@ -13,6 +13,7 @@ constexpr size_t SIZE = 16000000;
 
 int main() {
     // test here...
+    // Initialization
     Timer timer;
     std::mt19937_64 rng(0);
 

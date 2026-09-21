@@ -14,6 +14,8 @@ uint64_t expand(uint64_t input, uint32_t scale) {
 
     while (input != 0 && targetPos < 64) {
         // Check if the least significant bit is 1
+        // 1ULL to prevent integer overflow uding bitwise operations
+        // If I used 1, it would be a 32-bit int, which would cause undefined behaviour
         if ((input & 1ULL) == 1ULL) {
             result |= (1ULL << targetPos);
         }
